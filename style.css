@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background: linear-gradient(to right,rgb(14, 76, 76), rgb(142, 27, 113)) ; 
+    font-family: 'Odibee Sans', cursive;
+    height: 100vh;
+}
+
+.container{
+
+    height: 50rem;
+    box-shadow: 0 5rem 5rem -4rem rgb(145, 12, 12);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 5px 5px 5px #e8eff0;
+}   
+
+#header{
+
+    font-size: 2rem;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 150px;
+}
+
+#clock{
+
+    position: absolute;
+    top: 310px;
+    margin-left: 60px;
+    font-size: 10rem;
+
+}
+
+#greet{
+
+    position: absolute;
+    bottom: 50px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px #e8eff0;
+}
+
+img{
+
+    height: 50rem;
+    width: 40rem;
+    border-radius: 20px;
+
+}
+
